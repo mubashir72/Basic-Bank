@@ -41,11 +41,13 @@
 
 <body>
   <nav>
-    <li class="homelink"><a href="index.php">Basic Banking</a></li>
+    <li class="homelink"><a href="index.html">Basic Banking</a></li>
     <ul>
+      <li><a href="transaction.php">Transactions</a></li>
+      <li><a href="customerdata.php">Customers</a></li>
       <li><a href="contact.php">Contact us</a></li>
       <li><a href="#">About</a></li>
-      <li><a href="index.php">Home</a></li>
+      <li><a href="index.html">Home</a></li>
     </ul>
   </nav>
   <main>
