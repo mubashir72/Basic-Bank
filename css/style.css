@@ -1,0 +1,78 @@
+ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #efbc9b;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 80px;
+  right: 50px;
+}
+.bottom-right a {
+  font-size: xx-large;
+
+  color: rgb(220, 236, 245);
+}
+.bottom-right a:visited {
+  color: beige;
+}
+.top-left {
+  font-size: 4rem;
+
+  color: beige;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+#viewTable {
+  padding: 70px;
+  padding-left: 150px;
+}
+#transferMoney {
+  padding: 70px;
+  padding-left: 150px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #fbf3d5;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+.homelink {
+  position: absolute;
+  list-style-type: none;
+}
+.aboutus1 {
+  background-color: #fbf3d5;
+  padding: 30px;
+  margin: 20px;
+}
