@@ -27,13 +27,13 @@
   }
   ?>
   <nav>
-    <li class="homelink"><a href="index.html">Basic Banking</a></li>
+    <li class="homelink"><a href="index.php">Basic Banking</a></li>
     <ul>
       <li><a href="#">Transactions</a></li>
       <li><a href="customerdata.php">Customers</a></li>
       <li><a href="contact.php">Contact us</a></li>
       <li><a href="about_us.php">About</a></li>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.php">Home</a></li>
     </ul>
   </nav>
   <main>
@@ -75,15 +75,54 @@
       
     </main>
     <footer>
-    <p>Author: Muhammad Mubashir<br>
-      Copyright &copy2024 <br>
-      <a href=" mailto:info@basicbank.com">info@basicbank.com</a>
-        </p>
-        </footer>
-        <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-          </script>
-        <script src="js/main.js"></script>
+      <div class=" footerLeft">
+        <div class="footerMenu">
+          <h1 class="fMenuTitle">About Us</h1>
+          <ul class="fList">
+            <li class="fListItem">Company</li>
+            <li class="fListItem">Contact</li>
+            <li class="fListItem">Careers</li>
+            <li class="fListItem">Affiliates</li>
+            <li class="fListItem">Scores</li>
+          </ul>
+        </div>
+        <div class="footerMenu">
+          <h1 class="fMenuTitle">Usefull Links</h1>
+          <ul class="fList">
+            <li class="fListItem">Support</li>
+            <li class="fListItem">Refund</li>
+            <li class="fListItem">FAQ</li>
+            <li class="fListItem">Feedback</li>
+            <li class="fListItem">Stories</li>
+          </ul>
+        </div>
+    </div>
+    <div class="footerRight">
+      <div class="footerRightMenu">
+        <h1 class="fMenuTitle">Subscribe to our newsletter.</h1>
+        <div class="fMail">
+          <input type="text" placeholder="your@email.com" class="fInput" />
+          <button class="fButton">Join!</button>
+        </div>
+      </div>
+      <div class="footerRightMenu">
+        <h1 class="fMenuTitle">Follow Us</h1>
+        <div class="fIcons">
+          <img src="./img/facebook.png" alt="" class="fIcon" />
+          <img src="./img/twitter.png" alt="" class="fIcon" />
+          <img src="./img/instagram.png" alt="" class="fIcon" />
+          <img src="./img/whatsapp.png" alt="" class="fIcon" />
+        </div>
+      </div>
+      <div class="footerRightMenu">
+        <span class="copyright">@Muhammad Mubashir. All rights reserved. 2024</span>
+      </div>
+    </div>
+    </footer>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+      </script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
